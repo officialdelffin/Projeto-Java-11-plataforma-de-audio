@@ -7,7 +7,8 @@ package br.com.officialdelffin.Interfaces;
 public interface Playable {
 
 
-
+    // Faz com que as classe precise do metodo Playing
+    String getPlaying ();
 
 
 }

@@ -3,8 +3,8 @@
 package br.com.officialdelffin.Audio;
 
 
-// Classe mãe para os tipos de aúdio :
-public class Audio {
+// Classe abstrata para os tipos de aúdio :
+abstract public class Audio {
 
 
 
