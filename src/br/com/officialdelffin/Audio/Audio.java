@@ -3,6 +3,8 @@
 package br.com.officialdelffin.Audio;
 
 
+import br.com.officialdelffin.Interfaces.Playable;
+
 // Classe abstrata para os tipos de aúdio :
 abstract public class Audio {
 
@@ -28,8 +30,8 @@ abstract public class Audio {
     }
 
 
-    // Reprodução de audio :
-    public void playAudio () {
+    // Permite reproduzir :
+    public void play () {
 
 
 
@@ -41,19 +43,12 @@ abstract public class Audio {
     // Metodos Getters e Setters :
 
 
+    // Getters :
+
     public String getTittle() {
 
 
         return tittle;
-
-
-    }
-
-
-    public void setTittle( String tittle ) {
-
-
-        this.tittle = tittle;
 
 
     }
@@ -68,28 +63,10 @@ abstract public class Audio {
     }
 
 
-    public void setDuration( int duration ) {
-
-
-        this.duration = duration;
-
-
-    }
-
-
     public int getTotalPlayback() {
 
 
         return totalPlayback;
-
-
-    }
-
-
-    public void setTotalPlayback( int totalPlayback ) {
-
-
-        this.totalPlayback = totalPlayback;
 
 
     }
@@ -104,19 +81,48 @@ abstract public class Audio {
     }
 
 
-    public void setLikes( int likes ) {
+    public int getClassification() {
 
 
-        this.likes = likes;
+        return classification;
 
 
     }
 
 
-    public int getClassification() {
+    // Setters :
+
+    public void setTittle( String tittle ) {
 
 
-        return classification;
+        this.tittle = tittle;
+
+
+    }
+
+
+    public void setDuration( int duration ) {
+
+
+        this.duration = duration;
+
+
+    }
+
+
+    public void setTotalPlayback( int totalPlayback ) {
+
+
+        this.totalPlayback = totalPlayback;
+
+
+    }
+
+
+    public void setLikes( int likes ) {
+
+
+        this.likes = likes;
 
 
     }
@@ -129,4 +135,6 @@ abstract public class Audio {
 
 
     }
+
+
 }

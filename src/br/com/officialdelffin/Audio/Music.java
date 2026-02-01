@@ -6,20 +6,18 @@ package br.com.officialdelffin.Audio;
 import br.com.officialdelffin.Interfaces.Playable;
 
 // Classe filha musica :
-public class Music extends Audio implements Playable {
+public class Music extends Audio implements Playable{
 
 
+    // Atributos :
 
-    @Override
-    public String getPlaying (){
-
-
-        String audioPlaybackDisplay = "A musica está sendo reproduzida";
-
-        return audioPlaybackDisplay;
+    String album  = "";
+    String artist = "";
+    String genre  = "";
 
 
-    }
+    // Metodos :
+
 
 
 
