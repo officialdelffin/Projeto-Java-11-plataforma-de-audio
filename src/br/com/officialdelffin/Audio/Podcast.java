@@ -4,7 +4,7 @@ package br.com.officialdelffin.Audio;
 
 
 // Classe filha Podcast :
-public class Podcast {
+public class Podcast extends  Audio {
 
 
 
