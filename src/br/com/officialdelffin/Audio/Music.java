@@ -16,7 +16,70 @@ public class Music extends Audio implements Playable{
     String genre  = "";
 
 
+    // Metodos Getters e Setters :
+
+    // Getters:
+
+    public String getAlbum() {
+
+
+        return album;
+
+
+    }
+
+
+    public String getArtist() {
+
+
+        return artist;
+
+
+    }
+
+
+    public String getGenre() {
+
+
+        return genre;
+
+
+    }
+
+
+    // Setters :
+
+    public void setAlbum( String album ) {
+
+
+        this.album = album;
+
+
+    }
+
+
+    public void setArtist( String artist ) {
+
+
+        this.artist = artist;
+
+
+    }
+
+
+    public void setGenre( String genre ) {
+
+
+        this.genre = genre;
+
+
+    }
+
+
     // Metodos :
+
+
+
 
 
 

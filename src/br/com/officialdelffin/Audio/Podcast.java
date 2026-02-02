@@ -15,6 +15,49 @@ public class Podcast extends  Audio implements Playable {
     String descrition = "";
 
 
+    // Metodos Getters e Setters :
+
+    // Getters :
+
+
+    public String getHost (){
+
+
+        return host;
+
+
+    }
+
+
+    public String getDescrition () {
+
+
+        return descrition;
+
+
+    }
+
+
+    // Setters :
+
+    public void setHost ( String host ) {
+
+
+        this.host = host;
+
+
+    }
+
+
+    public void setDescrition ( String descrition ) {
+
+
+        this.descrition = descrition;
+
+
+    }
+
+
     // Metodos :
 
 
