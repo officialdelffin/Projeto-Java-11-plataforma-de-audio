@@ -78,8 +78,15 @@ public class Music extends Audio implements Playable{
 
     // Metodos :
 
+    // Sobreescrevendo o metodo playAudio :
+    @Override
+    public String playAudio() {
 
 
+        return "A musica está sendo reproduzida!";
+
+
+    }
 
 
 
