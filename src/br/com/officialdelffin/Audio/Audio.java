@@ -22,19 +22,20 @@ abstract public class Audio {
 
 
     // Permite curtir
-    public void enjoy () {
+    public void like () {
 
 
+        this.likes++;
 
 
     }
 
 
     // Permite reproduzir :
-    public void play () {
+    public void reproduce () {
 
 
-
+        this.totalPlayback++;
 
 
     }
