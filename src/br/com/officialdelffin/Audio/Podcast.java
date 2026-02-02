@@ -60,7 +60,14 @@ public class Podcast extends  Audio implements Playable {
 
     // Metodos :
 
-    // Fazendo a soobre
+    // Sobreescrevendo o metodo playAudio :
+    @Override
+    public String playAudio (){
+
+
+        return "O Podcast está sendo reproduzido!";
+
+    }
 
 
 
