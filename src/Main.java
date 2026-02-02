@@ -4,6 +4,8 @@ Simulador de áudio via terminal para consolidar POO em Java. Composto pela clas
 aplicando conceitos de herança e polimorfismo para tratar objetos distintos de forma genérica e desacoplada. */
 
 
+import br.com.officialdelffin.Audio.Music;
+
 // Classe principal do sistema :
 public class Main {
 
@@ -12,7 +14,15 @@ public class Main {
     public static void main( String[] args ) {
 
 
+        // Intanciando um objeto musica :
+        Music musicOne = new Music();
 
+
+        // Passando dados das musicas :
+        musicOne.setTittle   ( "Noiva cadaver" );
+        musicOne.setAlbum    ( "Homem torto" );
+        musicOne.setArtist   ( "Kamaitach" );
+        musicOne.setDuration ( 1.42 );
 
 
     }

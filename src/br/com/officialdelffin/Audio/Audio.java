@@ -3,8 +3,6 @@
 package br.com.officialdelffin.Audio;
 
 
-import br.com.officialdelffin.Interfaces.Playable;
-
 // Classe abstrata para os tipos de aúdio :
 abstract public class Audio {
 
@@ -12,7 +10,7 @@ abstract public class Audio {
     // Artibutos :
 
     private String tittle       = "";
-    private int duration        = 0;
+    private double duration     = 0;
     private int totalPlayback   = 0;
     private int likes           = 0;
     private int classification  = 0;
@@ -55,7 +53,7 @@ abstract public class Audio {
     }
 
 
-    public int getDuration() {
+    public double getDuration() {
 
 
         return duration;
@@ -102,7 +100,7 @@ abstract public class Audio {
     }
 
 
-    public void setDuration( int duration ) {
+    public void setDuration( double duration ) {
 
 
         this.duration = duration;
