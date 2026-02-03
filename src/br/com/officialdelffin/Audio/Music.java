@@ -83,7 +83,7 @@ public class Music extends Audio implements Playable{
     public String playAudio() {
 
 
-        return "A musica está sendo reproduzida!";
+        return " está sendo reproduzida como Musica!";
 
 
     }

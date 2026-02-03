@@ -65,7 +65,8 @@ public class Podcast extends  Audio implements Playable {
     public String playAudio (){
 
 
-        return "O Podcast está sendo reproduzido!";
+        return " está sendo reproduzido como Podcast!";
+
 
     }
 

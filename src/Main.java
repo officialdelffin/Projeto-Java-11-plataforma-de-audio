@@ -25,6 +25,10 @@ public class Main {
         musicOne.setDuration ( 1.42 );
 
 
+        // Recado que está sendo reproduzida :
+        System.out.println( musicOne.getTittle() + musicOne.playAudio() );
+
+
     }
 
 
